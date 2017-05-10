@@ -1,0 +1,24 @@
+﻿<!-- Using Layout page to render scripts in Bundle Config || Default Page set in Properties -->
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewBag.Title = "Index";
+}
+<!-- Didn't really pay much attention to styling -->
+<head>
+    <title>Input Personal Data</title>
+</head>
+<h2>Input Personal Data</h2>
+<body>
+    <input id="firstName"/> Enter First Name
+    <br />
+    <input id="lastName" /> Enter Last Name
+    <br />
+    <button type="button" id="saveData" value="Submit">Save Data</button>
+    <br />
+    <br />
+    <textarea id="detailsHistory"></textarea>
+</body>
+
